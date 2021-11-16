@@ -1,21 +1,48 @@
+:root {
+    --rojo: #e50914;
+    --fondo:  #343A40;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: var(--fondo);
+    font-family: "Open Sans", sans-serif;
+  }  
+
 .text-h1 {
     text-align: center;
+    margin-top: 15px;
 }
 
 .text-h2{
     text-align: center;
+    padding: 1em;
 }
 
 .buttons{
     margin: auto;
-    text-align: center;
+    text-align: center;    
+    font-size: 15px;    
 }
 
 .container{
+    margin-left: 160px;
+    margin-top: 50px;
     border: 1px solid red;
     background-size: contain;
-    width: 50%;
-    height: 200px;
-    margin: auto;
+    width: 75%;
+    height: 250px;    
     border-radius: 15px;
+    border: 1px solid #d5dae2;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 1em;   
+    background-color: #d5dae2; 
+    font-family: "Open Sans", sans-serif;
 }

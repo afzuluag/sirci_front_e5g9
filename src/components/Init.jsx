@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Button } from "react-bootstrap";
+import { Button } from "reactstrap";
 import "./Init.css";
 
 export function Init() {
@@ -13,15 +13,20 @@ export function Init() {
           <h3>Sistema de Informacion de Reservas de Cine - SIRCi </h3>
         </div>
         <div class="buttons">
-          <Button variant="info" id="login">
-            ingresar
-          </Button>
-          <Button type="submit" id="Register">
+          <Button color="dark" id="login">
+            Ingresar
+          </Button>{" "}
+          <Button color="dark" id="Register">
             Registro
-          </Button>
-          <Button type="submit" id="Cartelera">
+          </Button>{" "}
+          <Button color="dark" id="Cartelera">
             Ir a Cartelera
-          </Button>
+          </Button>{" "}
+          <div>
+            <span>
+              <a href="#">¿Olvido la Clave?</a>
+            </span>
+          </div>
         </div>
       </div>
     </Fragment>
