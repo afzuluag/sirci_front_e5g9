@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
+import { Init } from "./components/Init";
 
-export function App(){
-    return(<div>Hola Mundo!!!</div>)
+export function App() {
+  return <Init />;
 }

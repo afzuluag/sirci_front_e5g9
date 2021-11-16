@@ -1,0 +1,21 @@
+.text-h1 {
+    text-align: center;
+}
+
+.text-h2{
+    text-align: center;
+}
+
+.buttons{
+    margin: auto;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid red;
+    background-size: contain;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    border-radius: 15px;
+}
