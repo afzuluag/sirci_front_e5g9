@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
 import Init from "./components/Init";
-import SideBar from "./components/Sidebar";
+//import SideBar from "./components/Sidebar";
+
 
 function App() {
   //return <Init />;
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<Init />} />
+        
       </Routes>
     </div>
   );

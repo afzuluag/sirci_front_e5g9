@@ -1,0 +1,42 @@
+:root {
+    --rojo: #e50914;
+    --fondo:  #343A40;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: var(--fondo);
+    font-family: "Open Sans", sans-serif;
+  } 
+
+.container{
+    padding: 20px;
+    width: 600px;
+    height: 750px;
+    border-color: #fff;    
+    margin-top: 20px;    
+    background-position: center;
+    background-color: #d5dae2;
+    background-size: cover;    
+    border-radius: 20px;
+}
+
+.text-titulo-form{    
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.class-botones{        
+    font-size: 15px;  
+}
+
+.text-form{
+    font-size: 13px;
+    text-align: center;
+}
