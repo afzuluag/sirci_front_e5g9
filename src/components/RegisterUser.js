@@ -63,10 +63,10 @@ class Formulario extends React.Component {
     return (
       <Form onSubmit={this.handleSubmit}>
         <FormGroup row>
-          <Label for="nombre" sm={2}>
+          <Label for="nombre" sm={3}>
             Nombre(*)
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_nombre"
               name="nombre"
@@ -77,10 +77,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="apellido" sm={2}>
+          <Label for="apellido" sm={3}>
             Apellido(*)
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_apellido"
               name="apellido"
@@ -91,10 +91,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="email" sm={2}>
+          <Label for="email" sm={3}>
             Email(*)
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_email"
               name="email"
@@ -105,10 +105,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="psw" sm={2}>
+          <Label for="psw" sm={3}>
             Password(*)
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_psw"
               name="psw"
@@ -119,10 +119,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="genero" sm={2}>
+          <Label for="genero" sm={3}>
             Género
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input id="id_genero" name="genero" type="select">
               {" "}
               <option>Ninguno</option>
@@ -134,10 +134,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="celular" sm={2}>
+          <Label for="celular" sm={3}>
             Celular(*)
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_celular"
               name="celular"
@@ -148,10 +148,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="ciudad" sm={2}>
+          <Label for="ciudad" sm={3}>
             Ciudad
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_ciudad"
               name="ciudad"
@@ -162,10 +162,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="direccion" sm={2}>
+          <Label for="direccion" sm={3}>
             Direccion
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_direccion"
               name="direccion"
@@ -176,10 +176,10 @@ class Formulario extends React.Component {
         </FormGroup>
 
         <FormGroup row>
-          <Label for="fcumple" sm={2}>
+          <Label for="fcumple" sm={3}>
             Fecha Nacimiento(*)
           </Label>
-          <Col sm={10}>
+          <Col sm={9}>
             <Input
               id="id_fcumple"
               name="fcumple"
